@@ -17,4 +17,4 @@ spec:
         image: priyansh21/quotely:latest
         ports:
         - containerPort: 5000
-          hostPort: 5000
+          
