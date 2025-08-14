@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: quotely
-        image: quotely:latest
+        image: priyansh21/quotely:latest
         ports:
         - containerPort: 5000
