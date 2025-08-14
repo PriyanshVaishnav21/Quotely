@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/Quotely, ${{ secrets.DOCKERHUB_USERNAME }}/Quotely:${{ github.sha }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/quotely, ${{ secrets.DOCKERHUB_USERNAME }}/quotely:${{ github.sha }}
