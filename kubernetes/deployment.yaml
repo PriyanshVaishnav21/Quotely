@@ -15,6 +15,7 @@ spec:
       containers:
       - name: quotely
         image: priyansh21/quotely:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
           
