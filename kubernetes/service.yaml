@@ -3,9 +3,11 @@ kind: Service
 metadata:
   name: quotely-service
 spec:
+  type: NodePort
   selector:
     app: quotely
   ports:
   - protocol: TCP
     port: 5000
     targetPort: 5000
+    nodePort: 30080
